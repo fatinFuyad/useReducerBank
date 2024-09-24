@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: lightgray;
+}
+
+.row {
+  width: 15rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.row button {
+  width: 100%;
+  padding: 4px 8px;
+  font-size: 18px;
+}
+.row button[disabled] {
+  color: lightgray;
+}
+.row input {
+  padding: 4px 8px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 18px;
+}
+.row input:focus {
+  outline: 2px solid #ff5555;
+  outline-offset: -3px;
+}
